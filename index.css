@@ -1,0 +1,128 @@
+body {
+    margin: 1em;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-icon {
+    width: 8%
+}
+
+.nav-icon-logo {
+    width: 20%;
+}
+
+
+.nav-icon:hover,
+.nav-icon-logo:hover {
+    cursor: pointer;
+}
+
+.dog-img {
+    width: 100%;
+    margin-top: 1em;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.dog-profile {
+    position: relative;
+}
+
+.response-img {
+    width: 40%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.dog-specs {
+    color: whitesmoke;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    line-height: 15px;
+    text-shadow: 1px 1px black
+}
+
+p.dog-phrase {
+    opacity: 70%;
+    font-weight: lighter;
+}
+
+.swipe-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1em;
+}
+
+.swipe-img-div {
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heart:hover {
+    background-color: #DBFFF4;
+}
+
+.cross:hover {
+    background-color: #FFE7EF;
+}
+
+.swipe-img {
+    padding: 1.125em;
+    width: 40%;
+}
+
+.none {
+    display: none;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.response-img {
+    transform: rotate(-40deg);
+    top: 45px;
+    left: 6px;
+}
+
+
+.final-message-div {
+    position: relative;;
+    top: 5rem;
+    text-align: center;
+    color: orangered;
+    text-shadow: 1px 1px 1px black;
+    background: linear-gradient(orange, orangered, whitesmoke);
+    height: 300px;
+    border-radius: 10px;
+    border: solid;
+    border-bottom: none
+}
+
+.liked-profiles h1 {
+    font-family: serif;
+    text-decoration: underline;
+    color: cadetblue
+}
+
+.liked-profiles ul {
+    font-size: 1.2rem;
+    font-family: serif;
+    text-decoration: underline;
+}
+
